@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Task</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input, textarea, select{
+            width: 400px;
+            padding: 10px;
+        }
+
+        button{
+            padding: 10px 30px; /*10px for top and bottom, and 30px for left and right*/
+            background-color: #4407;
+            columns: #fff;
+            border: none;
+        }
+
+        select{
+            width: 420px;
+        }
+    
+    </style>
+    </head>
+    <body>
+        <form>
+            <p>
+                <label>Title</label><br>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>Description</label><br>
+                <textarea rows="5" cols="50"></textarea>
+            </p>
+
+            <p>
+                <label>Category</label><br>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>Priority Level</label><br>
+                <select>
+                    <option>Select an item</option>
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Low</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Progress Level</label><br>
+                <select>
+                    <option>Select an item</option>
+                    <option>Pending</option>
+                    <option>Started</option>
+                    <option>Completed</option>
+                </select>
+            </p>
+            <button type="button">Submit</button>
+        </form>
+    </body>
+</html>
